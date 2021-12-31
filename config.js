@@ -4,6 +4,6 @@ const pg = {
 }
 
 module.exports={
-    PORT:7000,
+    PORT:process.env.PORT || 4000,
     pg
 }
